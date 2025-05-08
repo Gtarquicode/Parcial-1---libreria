@@ -14,15 +14,19 @@ public class PARCIALLIBRERIA {
     /**
      *
      */
-     class menu {
+      public class libro {
         private string usuario;
         private string libros;
         private string catalogo;
-    }
-        class usuario{
-        class scanner {
-            scanner lector;
-            string
+     public libros('string titulo',
+       'string autor','string categoria')
+        {
+        this titulo;
+        this autor;
+        this categoria =
+            categoria
+                } 
+        public get titulo
+                
         }
-    }}
 
