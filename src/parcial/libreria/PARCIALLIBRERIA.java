@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package parcial.libreria;
- 
+package testrecycle;
 
 
 /*Como primer paso es necesario que se tenga el registro de los nuevos usuarios
@@ -14,11 +14,15 @@ public class PARCIALLIBRERIA {
     /**
      *
      */
-    public class Usuario{
+     class menu {
         private string usuario;
         private string libros;
         private string catalogo;
     }
+        class usuario{
+        class scanner {
+            scanner lector;
+            string
+        }
+    }}
 
-    
-}
