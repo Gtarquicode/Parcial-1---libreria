@@ -3,30 +3,35 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package parcial.libreria;
-package testrecycle;
+public class PARCIALLIBRERIA{
 
-
-/*Como primer paso es necesario que se tenga el registro de los nuevos usuarios
-            sea docente o estudiante
-            */
-public class PARCIALLIBRERIA {
-
-    /**
+    /**Primero creo una clase, que es la del libro
      *
      */
-      public class libro {
-        private string usuario;
-        private string libros;
-        private string catalogo;
-     public libros('string titulo',
-       'string autor','string categoria')
-        {
-        this titulo;
-        this autor;
-        this categoria =
-            categoria
+      public static class Libro {
+          //Creo los datos que tiene cada libro que se va a subir
+        private String titulo; //Nombre del libro
+        private String autor; //Quien es el autor
+        private String categoria; //Categoria del libro
+        // Para añadir más libros creamos un constructor
+     public Libro(String titulo,String autor,String categoria){
+        this.titulo = titulo;   //Para guardar el nuevo titulo al añadir un libro
+        this.autor = autor;     //Guardar el autor del libro añadido
+        this.categoria = categoria;  //Guardar la categoria del libro
                 } 
-        public get titulo
-                
+                //Metodo para obtener el titulo
+        public String getTitulo(){
+            return titulo;
+        }       
+            //Metodo para obtener el autor
+        public String getAutor(){
+            return autor;
         }
+            //Metodo para obtener la categoria
+        public String getCategoria(){
+            return categoria;
+        }
+       } 
+      }
+      
 
