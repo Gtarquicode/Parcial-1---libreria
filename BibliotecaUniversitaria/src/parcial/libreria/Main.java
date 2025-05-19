@@ -48,10 +48,10 @@ public static void main(String[] args) {
         }
 
         // Buscar libro
-        System.out.print("\n¿Desea buscar un libro? (sí/no): ");
+        System.out.print("\n¿Desea buscar un libro? (si/no): ");
         String respuesta = scanner.nextLine().toLowerCase();
 
-        if (respuesta.equals("sí")) {
+        if (respuesta.equals("si")) {
             System.out.print("Ingrese el título del libro: ");
             String tituloBusqueda = scanner.nextLine();
             Libro libroEncontrado = biblioteca.buscarLibroPorTitulo(tituloBusqueda);
